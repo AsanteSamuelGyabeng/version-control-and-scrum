@@ -19,9 +19,9 @@ import javafx.scene.text.Font;
 import javafx.scene.text.Text;
 import javafx.stage.FileChooser;
 import javafx.stage.FileChooser.ExtensionFilter;
-import word.processor.App;
-import word.processor.utils.TextState;
-import word.processor.utils.UndoAndRedo;
+import wordprocessor.App;
+import wordprocessor.utils.TextState;
+import wordprocessor.utils.UndoAndRedo;
 
 public class HomeController {
     StringProperty st = new SimpleStringProperty("new Simple String Property");

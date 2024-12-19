@@ -1,4 +1,4 @@
-package word.processor;
+package wordprocessor;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
