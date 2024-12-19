@@ -1,3 +1,4 @@
+
 package wordprocessor;
 
 import javafx.application.Application;
@@ -14,11 +15,13 @@ import java.io.IOException;
 public class App extends Application {
 
     private static Scene scene;
-
+    public static Stage displayTage;
 
     @Override
     public void start(Stage stage) throws IOException {
-        scene = new Scene(loadFXML("primary"), 640, 480);
+        displayTage = stage;
+        scene = new Scene(loadFXML("mainWindow"));
+        stage.setTitle("Scrum Project Advance Analysis");
         stage.setScene(scene);
         stage.show();
     }
