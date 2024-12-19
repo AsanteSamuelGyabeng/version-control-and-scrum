@@ -1,3 +1,4 @@
+
 package wordprocessor;
 
 import javafx.application.Application;
