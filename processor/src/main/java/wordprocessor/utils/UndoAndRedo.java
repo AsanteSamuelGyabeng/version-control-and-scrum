@@ -1,5 +1,4 @@
 package wordprocessor.utils;
-
 import java.util.Stack;
 
 public class UndoAndRedo {

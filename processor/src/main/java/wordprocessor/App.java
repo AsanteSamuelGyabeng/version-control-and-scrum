@@ -1,4 +1,3 @@
-
 package wordprocessor;
 
 import javafx.application.Application;
@@ -21,7 +20,7 @@ public class App extends Application {
     public void start(Stage stage) throws IOException {
         displayTage = stage;
         scene = new Scene(loadFXML("mainWindow"));
-        stage.setTitle("Scrum Project Advance Analysis");
+        stage.setTitle("Kingsley Text Processor");
         stage.setScene(scene);
         stage.show();
     }
