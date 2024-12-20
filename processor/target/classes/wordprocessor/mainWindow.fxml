@@ -15,7 +15,7 @@
 <?import javafx.scene.text.Text?>
 
 <?import java.awt.Insets?>
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="573.0" prefWidth="827.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="word.processor.controllers.HomeController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="573.0" prefWidth="827.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="wordprocessor.controllers.HomeController">
     <children>
         <TextArea fx:id="textArea" layoutY="115.0" onInputMethodTextChanged="#textChangeAction" prefHeight="424.0" prefWidth="827.0" promptText="Enter Text" style="-fx-border-color: black;" AnchorPane.bottomAnchor="34.59999999999991" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="115.0" />
         <HBox layoutX="-0.8" layoutY="452.0" prefHeight="38.0" prefWidth="681.0" spacing="20.0" AnchorPane.bottomAnchor="-4.0" AnchorPane.leftAnchor="-1.0" AnchorPane.rightAnchor="147.0">

@@ -5,3 +5,4 @@ module wordprocessor {
     opens wordprocessor to javafx.fxml;
     exports wordprocessor;
 }
+
