@@ -6,3 +6,4 @@ module word.processor {
     opens wordprocessor.controllers to javafx.fxml;
     exports wordprocessor;
 }
+

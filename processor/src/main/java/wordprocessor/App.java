@@ -20,7 +20,7 @@ public class App extends Application {
     public void start(Stage stage) throws IOException {
         displayTage = stage;
         scene = new Scene(loadFXML("mainWindow"));
-        stage.setTitle("Kingsley Text Processor");
+        stage.setTitle("Scrum Processor");
         stage.setScene(scene);
         stage.show();
     }
