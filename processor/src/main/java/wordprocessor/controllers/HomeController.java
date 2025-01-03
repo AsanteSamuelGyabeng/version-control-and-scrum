@@ -106,7 +106,6 @@ public class HomeController {
          new ExtensionFilter("Text Files", "*.txt"));
         File selectedFile = fileChooser.showOpenDialog(App.displayTage);
         if(selectedFile != null) {
-            //read the file content as a string and pass it to the text area, after save the file path to the file and chose save to true;
             Boolean isRead = TextState.readFromFile(selectedFile.getAbsolutePath());
             if(isRead) {
                 textArea.setText(TextState.getCurrentText());
